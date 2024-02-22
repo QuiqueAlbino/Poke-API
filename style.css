@@ -15,7 +15,44 @@
     padding-bottom: 10px;
     border: 2px solid purple;
     border-radius: 4px;
+    background: rgb(96, 15, 235);
+    background: linear-gradient(
+    90deg,
+    rgb(130, 85, 189) 0%,
+    rgb(151, 201, 240) 54%,
+    rgb(243, 226, 209) 82%
+  );
 }
 #agregar-pokemon {
     margin-right: 15px;
+}
+.hidden {
+    display: none;
+}
+.style-habilidad{
+    margin-top: 15px;
+    /* background-color: aqua; */
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(85, 144, 189);
+    background: linear-gradient(
+    90deg,
+    rgba(85, 144, 189, 1) 0%,
+    rgba(108, 183, 240, 1) 54%,
+    rgba(182, 216, 242, 1) 82%
+  );
+
+}
+.listado-pokedex {
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(85, 144, 189);
+    background: linear-gradient(
+    90deg,
+    rgba(85, 144, 189, 1) 0%,
+    rgba(108, 183, 240, 1) 54%,
+    rgba(182, 216, 242, 1) 82%
+  );
 }
