@@ -1,0 +1,21 @@
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.left-column{
+    flex: 1;
+    margin-right: 40px;
+}
+.right-column {
+    flex: 1;
+}
+.contenedor-pokemons {
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 2px solid purple;
+    border-radius: 4px;
+}
+#agregar-pokemon {
+    margin-right: 15px;
+}
